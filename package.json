@@ -1,0 +1,16 @@
+{
+  "name": "dilla-portfolio",
+  "version": "1.0.0",
+  "description": "Dilla's Personal Portfolio Website",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve -s . -l 3000",
+    "build": "echo 'No build process needed for static site' && exit 0"
+  },
+  "keywords": ["portfolio", "website", "static"],
+  "author": "Dilla",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^14.2.0"
+  }
+}
